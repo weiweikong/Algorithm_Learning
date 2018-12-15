@@ -5,7 +5,6 @@
 - [Algorithm_Learning](#algorithm_learning)
   - [01. Array](#01-array)
     - [118_PascalTrangle](#118_pascaltrangle)
-      - [基本例程](#基本例程)
 
 <!-- /TOC -->
 
@@ -137,13 +136,17 @@
 
   - 思路2 - 多项式系数问题
 
-    $\begin{array}{c}  (x+y)^0 = 1\\  (x+y)^1 = x + y\\  (x+y)^2 = x^2 + 2xy + y^2\\  (x+y)^3 = x^3 + 3x^2 y + 3xy^2 + y^3\\  (x+y)^4 = x^4 + 4x^3 y + 6x^2 y^2 + 4x y^3 + y^4\\  \end{array}$
+    $$
+    \begin{array}{c}  (x+y)^0 = 1\\  (x+y)^1 = x + y\\  (x+y)^2 = x^2 + 2xy + y^2\\  (x+y)^3 = x^3 + 3x^2 y + 3xy^2 + y^3\\  (x+y)^4 = x^4 + 4x^3 y + 6x^2 y^2 + 4x y^3 + y^4\\  \end{array}
+    $$
 
     以第6行为例
 
     - 目标值：1，6，15，20，15，6，1
     - 计算方法 
-      - $\begin{array}{rcl}  1\times\frac{6}{1}&=&6 \\ 6 \times \frac{5}{2} &=& 15 \\15 \times \frac{4}{3} &=& 20\\  20 \times \frac{3}{4} &=& 15\\  15 \times \frac{2}{5} &=& 6\\  6 \times \frac{1}{6} &=& 1\\  \end{array}$
+    $$
+    \begin{array}{rcl}  1\times\frac{6}{1}&=&6 \\ 6 \times \frac{5}{2} &=& 15 \\15 \times \frac{4}{3} &=& 20\\  20 \times \frac{3}{4} &=& 15\\  15 \times \frac{2}{5} &=& 6\\  6 \times \frac{1}{6} &=& 1\\  \end{array}
+    $$
 
 - 输出格式问题
 
